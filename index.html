@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="shorcut icon" href="./imagenes/Formación Bursátil - Isotipo.jpg">
+     <title>Formacion Bursatil</title>
+     <link rel="stylesheet" href="/css/styles.css">
+   </head>
+
+   <body>
+     <header class="header">
+          <div>
+               <a href="./index.html">
+                 <!--PROBLEMA CON PONERLE COLOR AL LOGO-->
+                 <img class="header__logo" width="230" height="160"
+                    src="./imagenes/Formación Bursátil - Logotipo Final (1).jpg " alt="Logo">
+               </a>
+           </div>
+
+          <nav class="headerNav">
+               <div class="gridContainerk">
+                  <ul class="p">
+                     <!--No me funciona el fixed (se me junta todo pero el stycky no)-->
+
+                     <div class="gridItemk">
+                         <li> <a href="./index.html"> inicio </a> </li>
+                     </div>
+                     <div class="gridItemk">
+                         <li> <a href="./contacto.html"> contacto </a> </li>
+                     </div>
+                     <div class="gridItemk">
+                         <li> <a href="./Mi_experiencia.html"> Mi Experiencia </a> </li>
+                     </div>
+                     <div class="gridItemk">
+                         <li> <a href="./Video_Educativos.html"> Videos Educativos </a> </li>
+                     </div>
+                     <div class="gridItemk">
+                         <li> <a href="./Analisis_del_Mercado.html"> Analisis del Mercado </a> </li>
+                     </div>
+                     <div class="gridItemk">
+                         <li> <a href="./Servicios.html"> Servicios </a> </li>
+                     </div>
+
+
+                    </ul>
+             </div>
+           </nav>
+     </header>
+     <h1> FORMACION BURSATIL </h1>
+     <h2 class="subtitulo"> Financie su futuro con Formacion Bursatil</h2>
+     <section>
+        <p>Capacitación Bursátil se enorgullece en ayudarle a lograr sus objetivos en finanzas. Ya sea que
+            le
+            interese invertir en la educación de sus hijos o lograr una jubilación ventajosa,
+            estoy aquí para asesorarle respecto a las mejores opciones de inversión. Juntos podemos explorar
+            las
+            estrategias financieras que más se adapten a sus necesidades únicas y a su estilo de vida.</p>
+     </section>
+     <section>
+        <!--Problemas en la alineacion central de la tabla-->
+        <div class="gridItemd">
+            <h2>Servicios</h2>
+        </div>
+        <br>
+        <div class="gridContainer">
+            <div class="gridItem"> Clases </div>
+            <div class="gridItem"> Clases </div>
+            <div class="gridItem"> Asesoramiento </div>
+            <div class="gridItem"> Aprende a invertir Martes/Jueves </div>
+            <div class="gridItem"> Aprende a invertir Sabados/Domingos </div>
+            <div class="gridItem"> Asesoramiento financiero </div>
+
+        </div>
+
+
+        <section>
+            <div class="GridContainers">
+
+                <div class="gridItems">
+                    <h2>Analisis del mercado</h2>
+                </div>
+                <div class="gridItems">
+                    <h3>Accion YPF</h3>
+                </div>
+                <img class="img" width="1500" height="800"
+                    src="./imagenes/16730 - 30_10 - Primeros pasos HTML & Incluyendo CSS a nuestro proyecto - Zoom - Google Chrome 4_11_2021 21_32_58 (2).png"
+                    alt="Grafico">
+            </div>
+
+
+
+        </section>
+        <section>
+            <h2>Video Educativos</h2>\
+            <article>
+                <iframe width="1500" height="800" src="https://www.youtube.com/embed/ZNxWLJDJqDk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </article>
+
+        </section>
+        <section>
+            <h2>Experiencia Laboral</h2>
+
+            <h3> Una base Financiera solida </h3>
+            <br>
+            <br>
+
+            <article>
+                <img width="1500" height="1100" src="./imagenes/thumbnail (1).jpg" alt="Foto">
+                <h2> Corredor Auxiliar</h2>
+                <p>
+                    Realizo soporte para las personas que necesitan invertir en activos creando portafolios según la
+                    versión
+                    del cliente asegurando optimizar y garantizar un buen rendimiento.
+                </p>
+                <br>
+                <br>
+                <h2> Corredor de Bolsa Senior</h2>
+                <p>
+                    Soy certificado en el instituto de capacitación bursátil y opero cualquier tipo de activos con
+                    distintos
+                    instrumentos con una trayectoria larga potenciando mis ingresos cada vez mas haciendo un trabajo en
+                    la
+                    bolsa.
+                </p>
+            </article>
+        </section>
+
+
+
+
+    </body>
+
+        <footer id="pie">
+            <h2>Registro</h2>
+            <!--lista ordenada-->
+            <form class="registro" action="/" method="post">
+                <label for="">Nombre y Apellido:</label>
+                <input id="nombre y apellido" type="text" placeholder="Ingrese su Nombre y Apellido">
+                <br>
+                <br>
+
+
+                <label for="/"> email:</label>
+                <input id="email" type="email" placeholder="Ingrese su Email">
+                <br>
+                <br>
+
+                <fieldset>
+                    <label for="">hombre</label>
+                    <input type="radio" name="sexo" value="hombre" />
+                    <label for="">mujer</label>
+                    <input type="radio" name="sexo" value="mujer" />
+                    <br>
+                    <label for="">acepta las condiciones: </label>
+                    <input type="checkbox" name="acepta" value="1" required />
+
+
+
+
+                </fieldset>
+                <br>
+
+                <input type="submit">
+                <input type="reset">
+            </form>
+
+
+        </footer>
+
+</html>
