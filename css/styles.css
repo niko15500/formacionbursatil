@@ -1,15 +1,28 @@
 .header {
   width: 100%;
-  height: 15gi0px;
+  height: 160px;
   padding: 0 5%;
   background-color: #44b3df;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  margin-right: 50px;
+  margin-block-end: 50px; }
+
+.navbar-brand {
+  margin-right: 100px; }
 
 .hd {
   position: fixed;
   position: top; }
+
+.card {
+  position: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  list-style-type: none;
+  display: inline-block;
+  margin-block-end: 30px; }
 
 .headerNav {
   width: 60%; }
@@ -17,7 +30,7 @@
 .header nav ul li {
   list-style-type: none;
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 90px;
   font-size: 30px;
   top: 0px; }
 
@@ -107,7 +120,7 @@
   border: solid 2px black; }
 
 .gridContainer {
-  margin-block-end: 50px; }
+  margin-block-end: 10px; }
 
 h1 {
   color: #0026ff;

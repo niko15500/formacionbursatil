@@ -12,46 +12,50 @@
 </head>
 
 <body>
-    <header class="header">
-        <div>
-            <a href="./index.html">
-                <!--PROBLEMA CON PONERLE COLOR AL LOGO-->
-                <img class="header__logo" width="230" height="160"
-                    src="./imagenes/Formación Bursátil - Logotipo Final (1).jpg" alt="Logo">
-            </a>
-        </div>
 
-        <nav class="headerNav">
-            <div class="gridContainerk">
-
-                <ul class="p">
-                    <!--No me funciona el fixed (se me junta todo pero el stycky no)-->
-
-                    <div class="gridItemk">
-                        <li> <a href="./index.html"> inicio </a> </li>
-                    </div>
-                    <div class="gridItemk">
-                        <li> <a href="./contacto.html"> contacto </a> </li>
-                    </div>
-                    <div class="gridItemk">
-                        <li> <a href="./Mi_experiencia.html"> Mi Experiencia </a> </li>
-                    </div>
-                    <div class="gridItemk">
-                        <li> <a href="./Video_Educativos.html"> Videos Educativos </a> </li>
-                    </div>
-                    <div class="gridItemk">
-                        <li> <a href="./Analisis_del_Mercado.html"> Analisis del Mercado </a> </li>
-                    </div>
-                    <div class="gridItemk">
-                        <li> <a href="./Servicios.html"> Servicios </a> </li>
-                    </div>
-
-
-                </ul>
-            </div>
-        </nav>
-
-    </header>
+        <header class="header">
+             <div>
+                  <a href="./index.html">
+                    <!--PROBLEMA CON PONERLE COLOR AL LOGO-->
+                    <img class="header__logo" width="230" height="160"
+                       src="./imagenes/Formación Bursátil - Logotipo Final (1).jpg " alt="Logo">
+                  </a>
+              </div>
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <div class="container-fluid">
+                 <a class="navbar-brand" href="/index.html">FORMACION BURSATIL</a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                 </button>
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                     <li class="nav-item">
+                       <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="/Servicios.html">Servicios</a>
+                     </li>
+                     <li class="nav-item">
+                       <a class="nav-link" href="/Mi_experiencia.html">Mi Experiencia</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Mas
+                       </a> 
+                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                         <li><a class="dropdown-item" href="/contacto.html">contacto</a></li>
+                         <li><a class="dropdown-item" href="/Analisis_del_Mercado.html">Analisis del Mercado</a></li>
+                         <li><hr class="dropdown-divider"></li>
+                         <li><a class="dropdown-item" href="/Video_Educativos.html">Video Educativos</a></li>
+                       </ul>
+                     </li>
+                   </ul>
+                 </div>
+               </div>
+             </nav>
+   
+   
+        </header>
 
     <section>
         <!--Problemas en la alineacion central de la tabla-->
@@ -68,15 +72,41 @@
             <div class="gridItem"> Asesoramiento financiero </div>
 
         </div>
+        <div class="cardTodo">
+            <div class="card" style="width: 20rem ;">
+                <img src="/imagenes/th.jpg"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cursos</h5>
+                  <p class="card-text">Aprende a invertir en la bolsa de valores con expertor en inversiones.</p>
+                  <a href="#" class="btn btn-primary">Reservar</a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem ;">
+                <img src="/imagenes/th.jpg"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cursos</h5>
+                  <p class="card-text">Aprende a invertir en la bolsa de valores con expertor en inversiones.</p>
+                  <a href="#" class="btn btn-primary">Reservar</a>
+                </div>
+            </div>
+            <div class="card" style="width: 20rem ;">
+                <img src="/imagenes/th.jpg"  alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Asesoramiento</h5>
+                  <p class="card-text">Planifica tus inversiones con la ayuda de expertos en inversiones.</p>
+                  <a href="#" class="btn btn-primary">Reservar</a>
+                </div>
+            </div>
+        </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<footer>
+<footer id="pie">
     <h2>Registro</h2>
     <!--lista ordenada-->
     <form class="registro" action="/" method="post">
         <label for="">Nombre y Apellido:</label>
         <input id="nombre y apellido" type="text" placeholder="Ingrese su Nombre y Apellido">
-        <br>
+        
         <br>
 
 
