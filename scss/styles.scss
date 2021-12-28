@@ -13,7 +13,12 @@
 
 }
 
+/* extension */
+.card2{
+    @extend .card;
+    background-color: beige;
 
+}
 
 .navbar-brand{
     margin-right: 100px;
