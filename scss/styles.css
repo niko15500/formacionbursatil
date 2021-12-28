@@ -17,6 +17,12 @@
           margin-block-end: 50px;
 }
 
+/* mixin */
+.card2 {
+  height: 50px;
+  width: 100px;
+}
+
 /* extension */
 .card2 {
   background-color: beige;

@@ -12,6 +12,14 @@
 
 
 }
+/* mixin */
+@mixin card($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+}
+.card2{
+    @include card(50px, 100px);
+}
 
 /* extension */
 .card2{
