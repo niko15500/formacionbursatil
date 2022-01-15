@@ -16,6 +16,10 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="form.css" >
+    <script src="form.js"></script>
   </head>
 
   <body>
@@ -101,16 +105,35 @@
         </nav>
       
     </header>
-    <section class="contactofondo">
-      <h2 id="contactoo">Comunicarse:</h2>
-      <h3>Correo:</h3>
-      <h4>formacionbursatil@cursos.com</h4>
-      <h3>Telefono:</h3>
-      <h4>+542964541181</h4>
-    </section>
+    <div class="container">
+      <div id="form-main">
+          <div id="form-div">
+              <form class="montform" id="reused_form" >
+                  <p class="name">
+                      <input name="name" type="text" class="feedback-input" required placeholder="Name" id="name" />
+                  </p>
+                  <p class="email">
+                      <input name="email" type="email" required class="feedback-input" id="email" placeholder="Email" />
+                  </p>
+                  <p class="text">
+                      <textarea name="message" class="feedback-input" id="comment" placeholder="Message"></textarea>
+                  </p>
+                  <div class="submit">
+                      <button type="submit" class="button-blue">SUBMIT</button>
+                      <div class="ease"></div>
+                  </div>
+              </form>
+              <div id="error_message" style="width:100%; height:100%; display:none; ">
+                  <h4>
+                      Error
+                  </h4>
+                  Sorry there was an error sending your form. 
+              </div>
+              <div id="success_message" style="width:100%; height:100%; display:none; "> <h2>Success! Your Message was Sent Successfully.</h2> </div>
+           </div>
+       </div>
+   </div>
     <footer class="page-footer font-small special-color-dark pt-4">
-
-  
       <div class="container">
     
         
@@ -152,7 +175,6 @@
       <div class="footer-copyright text-center py-3">© 2022 Copyright:
         <a href="https://formacionbursatil.com/"> formacionbursatil.com</a>
       </div>
-    
     
     </footer>
     <script

@@ -368,7 +368,7 @@ footer {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   background-color: antiquewhite;
 }
@@ -518,6 +518,49 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+.dropdown-menu {
+  margin-left: 80px;
+  margin-right: 70px;
+}
+
+@media (min-width: 320px) and (max-width: 736px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 736px) {
+  .header {
+    margin-top: 65px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 736px) {
+  .navbar-nav {
+    margin-left: 78px;
+  }
+}
+
+@media (min-width: 596px) and (max-width: 736px) {
+  .navbar-toggler-icon {
+    margin-left: 200px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
