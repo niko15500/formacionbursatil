@@ -185,10 +185,9 @@
   display: flex;
   grid-template-columns: 100px;
   column-gap: 15px;
-  
+
   background-color: cornflowerblue;
 }
-
 
 .gridItemd {
   display: grid;
@@ -217,7 +216,7 @@ h2 {
   color: rgb(28, 43, 43);
   font-size: 25px;
 }
-h3{
+h3 {
   color: #373837;
   font-size: 20px;
 }
@@ -365,28 +364,57 @@ img {
     justify-content: center;
   }
 }
-.page-footer{
+.page-footer {
   background-color: #44b3df;
 }
-.footer-copyright{
-background-color: #649eb4;
+.footer-copyright {
+  background-color: #649eb4;
 }
-.btn{
+.btn {
   background-color: blue;
 }
-.fb{
+.fb {
   width: 40px;
   height: 40px;
   margin: 0px;
-} 
+}
 
 @media (min-width: 320px) and (max-width: 736px) {
   .list-inline-item {
-
     display: flex;
     margin-left: 5px;
     position: center;
     display: inline-block;
     align-items: center;
-    justify-content: center;}}
+    justify-content: center;
+  }
+}
+.dropdown-menu {
+  margin-left: 80px;
+  margin-right: 70px;
+}
 
+@media (min-width: 320px) and (max-width: 736px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (min-width:320px) and (max-width: 736px) {
+  .header{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 736px) {
+  .navbar-nav {
+    margin-left: 78px;
+  }
+}
+@media (min-width: 596px) and (max-width: 736px) {
+  .navbar-toggler-icon {
+    margin-left: 200px;
+  }
+}
