@@ -261,6 +261,9 @@ a {
 img {
     margin: 50px;
 }
+.d-block{
+    margin: 0px;
+}
 
 .contactofondo {
     background-color: #197ee4;
@@ -548,6 +551,7 @@ html{
 .header{
     width: 100%;
     margin-top: 0px;
+    
 }
 
 
@@ -562,6 +566,8 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #44b3df;
+    
 }
 
 @media (min-width: 320px) and (max-width: 1000px) {
@@ -571,10 +577,28 @@ html{
         align-items: center;
         margin-left: 30%;
         
+        
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1000px) {
+    .header {
+        margin: 0px;
+        padding: 0px;
+        
+        
     }
 }
 
 
+@media (min-width: 320px) and (max-width: 1000px) {
+    #navbarDropdown {
+
+        display: none;
+        
+        
+    }
+}
 
 
 
@@ -591,9 +615,25 @@ html{
     .header nav ul li {
         display: flex;
         justify-content: center;
-        margin: 0px;
+        margin-left: 15px;
+        
         
 
+    }
+}
+
+@media (min-width: 1009px) and (max-width: 6000px) {
+    #peter {
+
+        display: none;
+
+    }
+}
+@media (min-width: 320px) and (max-width: 1000px) {
+    #peter2 {
+
+        margin-top: 100px;
+        
     }
 }
 
@@ -605,6 +645,7 @@ html{
         align-items: center;
         padding: 0px;
         border: none;
+        
 
         
         
@@ -618,8 +659,16 @@ html{
     .navbar-toggler {
         display: flex;
         justify-content: center;
-        margin-top: 80px;
-        margin-left: 70px;
+        margin-top: 0px;
+        
+        margin-right: 100%;
+        margin-left: 0px;
+        position: absolute;
+        z-index: 2;
+        margin-bottom: 90px;
+
+
+        
         
 
     }
@@ -632,6 +681,8 @@ html{
         background-color: #44b3df;
         padding: 0px;
         border: none;
+        z-index: 1;
+        
 
         
 
@@ -674,4 +725,24 @@ html{
 }
 
 .navbar-brand {
-    margin-right: 50px;}
+    margin-right: 50px;
+
+}
+    
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 3%;
+
+}
+.dropdown-menu{
+    margin-left: 0px;
+
+}
+
+
+.header{
+    margin-block-end: 0px;
+}
