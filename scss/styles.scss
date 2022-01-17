@@ -14,6 +14,7 @@
   .header {
       display: flex;
       justify-content: center;
+      margin-top: 200px;
   }
 }
 
@@ -73,6 +74,7 @@
 @media (min-width: 320px) and (max-width: 736px) {
   .headerNav {
       margin: auto;
+      
   }
 }
 
@@ -252,7 +254,7 @@ section p {
       justify-items: auto;
   }
 }
-
+.nav-item
 footer {
   color: #00253a;
   font-weight: 500;
@@ -275,6 +277,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   background-color: antiquewhite;
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 6%, rgba(48,254,248,1) 50%, rgba(0,212,255,1) 94%);
 }
 
 #servicios {
@@ -408,18 +412,32 @@ img {
 }
 
 
+#ppp{
+  width: 100%;
+  
+  position: fixed;
+  bottom: 0px;
+  
+
+}
 
 @media (min-width:320px) and (max-width: 736px) {
   .header {
-      margin-top: 65px;
-      display: flex;
-      justify-content: center;
+      margin-top: 0px;
+      
+
   }
+}
+.header{
+  width: 100%;
 }
 
 @media (min-width: 320px) and (max-width: 736px) {
-  .navbar-nav {
-      margin-left: 78px;
+  .nav-item {
+      display: flex;
+      display: center;
+      justify-content: center;
+      justify-items: center;
   }
 }
 
@@ -430,15 +448,22 @@ img {
 }
 .navbar{
 
-  margin-right: 30%;
-  margin-left: 18%;}
+  margin-right: 33%;
+  margin-left: 1%;
+  border: solid 2px rgb(8, 210, 236);
+  background-color: rgb(20, 14, 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-@media (min-width: 320px) and (max-width: 736px) {
+@media (min-width: 320px) and (max-width: 1000px) {
   .navbar {
       display: flex;
       justify-content: center;
       align-items: center;
       margin-left: 30%;
+      display: none;
   }
 }
 
@@ -601,11 +626,68 @@ body
         padding-right: 3%;
     }
 }
+
 .page-footer{
   bottom: 0;
-  position: fixed;
+  position: static;
   width: 100%;
   height: 140px;
   text-align: center;
   margin: 0%;
 }
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px;
+    font-size: black;
+}
+.navbar{
+    
+}
+.nav-item{
+    display: flex;
+    
+
+}
+.dropdown-menu{
+    width: 0px;
+    position: absolute;
+    position: relative;
+    right: 0px;}
+.dropdown-item{
+   margin: 0px;
+   padding: 0px;
+
+}
+  
+
+.nav-link{
+  display: flex;
+  justify-content: center;
+  margin-block: 20px;
+}
+.nav-item{
+  column-gap: 0px;
+  margin: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+#navbarToggleExternalContent{
+  margin-top: 100px;
+}
+
+
+
+
+

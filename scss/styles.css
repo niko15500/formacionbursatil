@@ -25,6 +25,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-top: 200px;
   }
 }
 
@@ -349,6 +350,7 @@ section p {
   }
 }
 
+.nav-item
 footer {
   color: #00253a;
   font-weight: 500;
@@ -371,6 +373,9 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   background-color: antiquewhite;
+  background: #00d4ff;
+  background: -webkit-gradient(linear, left top, right top, color-stop(6%, #00d4ff), color-stop(50%, #30fef8), color-stop(94%, #00d4ff));
+  background: linear-gradient(90deg, #00d4ff 6%, #30fef8 50%, #00d4ff 94%);
 }
 
 #servicios {
@@ -519,5 +524,299 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+
+.dropdown-menu {
+  margin-left: 80px;
+  margin-right: 70px;
+}
+
+#ppp {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 736px) {
+  .header {
+    margin-top: 0px;
+  }
+}
+
+.header {
+  width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 736px) {
+  .nav-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+  }
+}
+
+@media (min-width: 596px) and (max-width: 736px) {
+  .navbar-toggler-icon {
+    margin-left: 0px;
+  }
+}
+
+.navbar {
+  margin-right: 33%;
+  margin-left: 1%;
+  border: solid 2px #08d2ec;
+  background-color: #140e04;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 320px) and (max-width: 1000px) {
+  .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 30%;
+    display: none;
+  }
+}
+
+/*General */
+html {
+  background: url("images/sun-2297961_1920.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#feedback-page {
+  text-align: center;
+}
+
+#form-main {
+  width: 100%;
+  float: left;
+  padding-top: 0px;
+}
+
+#form-div {
+  background-color: rgba(72, 72, 72, 0.4);
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  width: 450px;
+  float: left;
+  left: 50%;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -260px;
+  border-radius: 7px;
+}
+
+.montform .feedback-input {
+  color: #3c3c3c;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 0;
+  line-height: 22px;
+  background-color: #fbfbfb;
+  padding: 13px 13px 13px 54px;
+  margin-bottom: 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+
+/*Inputs styles*/
+.montform .feedback-input:focus {
+  background: #fff;
+  border: 3px solid #3498db;
+  color: #3498db;
+  outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+/* Icons ---------------------------------- */
+.montform #name {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+.montform #name:focus {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
+  background-size: 30px 30px;
+  background-position: 8px 5px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+.montform #email {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+.montform #email:focus {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-mail.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+.montform #comment {
+  background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-pencil.svg);
+  background-size: 30px 30px;
+  background-position: 11px 8px;
+  background-repeat: no-repeat;
+}
+
+.montform textarea {
+  width: 100%;
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+.montform input:hover, .montform textarea:hover,
+.montform input:focus, .montform textarea:focus {
+  background-color: #e6e6e6;
+}
+
+.button-blue {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  float: left;
+  width: 100%;
+  border: #fbfbfb solid 4px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: white;
+  font-size: 24px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+
+.button-blue:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: #0493bd;
+}
+
+.montform .submit:hover {
+  color: #3498db;
+}
+
+.ease {
+  width: 0px;
+  height: 74px;
+  background-color: #fbfbfb;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.submit:hover .ease {
+  width: 100%;
+  background-color: white;
+}
+
+/*Styles for small screens*/
+@media only screen and (max-width: 580px) {
+  #form-div {
+    left: 3%;
+    margin-right: 3%;
+    width: 88%;
+    margin-left: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
+
+.page-footer {
+  bottom: 0;
+  position: static;
+  width: 100%;
+  height: 140px;
+  text-align: center;
+  margin: 0%;
+}
+
+.navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px;
+  font-size: black;
+}
+
+.nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dropdown-menu {
+  width: 0px;
+  position: absolute;
+  position: relative;
+  right: 0px;
+}
+
+.dropdown-item {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-block: 20px;
+}
+
+.nav-item {
+  -webkit-column-gap: 0px;
+          column-gap: 0px;
+  margin: 0px;
+}
+
+#navbarToggleExternalContent {
+  margin-top: 100px;
 }
 /*# sourceMappingURL=styles.css.map */
