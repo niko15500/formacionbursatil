@@ -37,16 +37,20 @@
     grid-template-columns: 500px 550px 500px;
     column-gap: 5px;
     justify-content: center;
+    margin-top: 20px;
+    
 }
 
 .gridItem {
-    background-color: aquamarine;
-    border: solid 2px black;
+    background: rgb(0,194,255);
+    background: linear-gradient(90deg, rgba(0,194,255,0) 8%, rgba(0,232,255,0.8435749299719888) 50%, rgba(0,194,255,0.10688025210084029) 94%);
+    border: solid 1px rgb(8, 210, 236);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
     font-size: 30px;
+    
 }
 
 @media (max-width: 736px) {
@@ -79,16 +83,14 @@
 }
 
 .gridContainers {
-    display: grid;
-    grid-template-columns: 100px;
-    column-gap: 15px;
-    justify-content: center;
-    background-color: cornflowerblue;
+    margin-top: 90px;
+    
 }
 
 .gridItems {
-    border: solid 2px black;
-    background-color: rgba(115, 192, 223, 0.815);
+    margin-top: 0px;
+    background: rgb(0,194,255);
+    background: linear-gradient(90deg, rgba(0,194,255,0) 8%, rgba(0,232,255,0.8435749299719888) 50%, rgba(0,194,255,0.10688025210084029) 94%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,27 +99,32 @@
 }
 
 .gridItemss {
-    border: solid 2px black;
-    background-color: rgba(115, 192, 223, 0.815);
+    
+    background: rgb(0,194,255);
+    background: linear-gradient(90deg, rgba(0,194,255,0) 8%, rgba(0,232,255,0.8435749299719888) 50%, rgba(0,194,255,0.10688025210084029) 94%);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
-    margin-block-end: 25px;
+    margin-block-end: 55px;
     margin-top: 35px;
 }
 
 .gridContainerss {
     display: grid;
+    
     grid-template-columns: 100px;
     column-gap: 15px;
     justify-content: center;
     background-color: cornflowerblue;
 }
-
+.b{
+    margin-bottom: 100px;
+}
 .gridItemsss {
-    border: solid 2px black;
-    background-color: rgba(115, 192, 223, 0.815);
+    
+    background: rgb(0,194,255);
+    background: linear-gradient(90deg, rgba(0,194,255,0) 8%, rgba(0,232,255,0.8435749299719888) 50%, rgba(0,194,255,0.10688025210084029) 94%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,6 +134,7 @@
 }
 
 .gridContainersss {
+    
     display: grid;
     grid-template-columns: 100px;
     column-gap: 15px;
@@ -135,8 +143,9 @@
 }
 
 .gridItemz {
-    border: solid 2px black;
-    background-color: rgba(115, 192, 223, 0.815);
+    border: solid 1px rgb(8, 210, 236);
+    background: rgb(0,194,255);
+    background: linear-gradient(90deg, rgba(0,194,255,0) 8%, rgba(0,232,255,0.8435749299719888) 50%, rgba(0,194,255,0.10688025210084029) 94%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,16 +169,19 @@
     font-size: 40px;
     font-weight: bolder;
     align-items: center;
-    display: flex;
-    border: solid 2px black;
+    
+    
+    background: rgb(0,194,255);
+    background: linear-gradient(90deg, rgba(0,194,255,0) 8%, rgba(0,232,255,0.8435749299719888) 50%, rgba(0,194,255,0.10688025210084029) 94%);
 }
 
 .gridContainer {
-    margin-block-end: 10px;
+    margin-block-end: 20px;
+    
 }
 
 h1 {
-    color: #0026ff;
+    color: #04577e;
     font-size: 40px;
 }
 
@@ -632,8 +644,18 @@ html{
 @media (min-width: 320px) and (max-width: 1000px) {
     #peter2 {
 
-        margin-top: 100px;
+        margin-top: 180px;
         
+    }
+}
+@media (min-width: 320px) and (max-width: 1000px) {
+    #piee {
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        height: 140px;
+        text-align: center;
+        margin: 0%;
     }
 }
 
@@ -659,7 +681,7 @@ html{
     .navbar-toggler {
         display: flex;
         justify-content: center;
-        margin-top: 0px;
+        margin-top: 90px;
         
         margin-right: 100%;
         margin-left: 0px;
@@ -692,7 +714,7 @@ html{
     .button-navbar {
         display: flex;
         justify-content: center;
-        margin-top: 10px;
+        margin-top: 100px;
         
         
 
@@ -709,13 +731,22 @@ html{
 }
 @media (min-width: 320px) and (max-width: 1000px) {
     .foto {
-        position: fixed;
+        position: absolute;
         width: 90px;
         height: 80px;
         margin-bottom: 250px;
-        margin-right: 30px;
-        flex-direction:column-reverse;
-        display: none;
+        margin-left: 130px;
+        margin-top: 160px;
+        
+    }
+}
+@media (min-width: 320px) and (max-width: 1000px) {
+    #header__logo{
+        position: absolute;
+        width: 80px;
+        height: 70px;
+
+        
     }
 }
 @media (min-width: 320px) and (max-width: 1000px) {
@@ -723,7 +754,15 @@ html{
         border: solid 1px black;
     }
 }
+@media (min-width: 320px) and (max-width: 1000px) {
+    .header{
+        
+        
+        height: 80px;
 
+        
+    }
+}
 .navbar-brand {
     margin-right: 50px;
 
@@ -745,4 +784,24 @@ html{
 
 .header{
     margin-block-end: 0px;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    font-style: Regular 400;
+
+}
+.titulo{
+    margin-top: 50px;
+}
+
+@media (min-width: 1009px) and (max-width: 6000px) {
+    .carousel-inner{
+        height: 800px;
+    }
+}
+.edu{
+    margin-block-end: 50px;
+}
+#body{
+    height: 700px;
 }
