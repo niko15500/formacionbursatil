@@ -11,11 +11,6 @@
 }
 
 
-
-
-
-
-
 .hd {
     position: fixed;
     position: top;
@@ -374,7 +369,7 @@ img {
 
 
 
-/*General */
+
 html{    
     background:url('images/sun-2297961_1920.jpg') no-repeat;
     background-size: cover;
@@ -425,7 +420,7 @@ html{
       box-sizing: border-box;
       border: 3px solid rgba(0,0,0,0);
   }
-  /*Inputs styles*/
+
   .montform .feedback-input:focus{
       background: #fff;
       border: 3px solid #3498db;
@@ -435,7 +430,7 @@ html{
   }
   
   
-  /* Icons ---------------------------------- */
+ 
   .montform  #name{
       background-image: url(https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-address-book.svg);
       background-size: 30px 30px;
@@ -521,7 +516,7 @@ html{
     background-color:white;
   }
   
-  /*Styles for small screens*/
+
   
   @media  only screen and (max-width: 580px) {
       #form-div{
@@ -543,30 +538,11 @@ html{
     margin: 0%;
   }
 
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header{
     width: 100%;
     margin-top: 0px;
     
 }
-
-
 
 
 .navbar{
