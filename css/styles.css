@@ -388,6 +388,8 @@ html{
       width:100%;
       float:left;
       padding-top:0px;
+      
+      
   }
   
   #form-div {
@@ -399,10 +401,11 @@ html{
       width: 450px;
       float: left;
       left: 50%;
-      position: absolute;
+      position: relative;
     margin-top:30px;
       margin-left: -260px;
     border-radius: 7px;
+    margin-bottom: 200px;
     
   }
   
@@ -779,5 +782,5 @@ html{
     margin-block-end: 50px;
 }
 #body{
-    height: 700px;
+    height: 1300px;
 }
