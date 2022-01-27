@@ -708,13 +708,50 @@ html{
 
     }
 }
-@media (min-width: 320px) and (max-width: 1000px) {
+@media (min-width: 320px) and (max-width: 374px) {
     .foto {
         position: absolute;
         width: 90px;
         height: 80px;
         margin-bottom: 250px;
-        margin-left: 130px;
+        margin-left: 40%;
+        margin-right: 0%;
+        margin-top: 160px;
+        
+    }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+    .foto {
+        position: absolute;
+        width: 90px;
+        height: 80px;
+        margin-bottom: 250px;
+        margin-left: 50%;
+        margin-right: 0%;
+        margin-top: 160px;
+        
+    }
+}
+@media (min-width: 425px) and (max-width: 1000px) {
+    .foto {
+        position: absolute;
+        width: 90px;
+        height: 80px;
+        margin-bottom: 250px;
+        margin-left: 58%;
+        margin-right: 0%;
+        margin-top: 160px;
+        
+    }
+}
+@media (min-width: 525px) and (max-width: 1000px) {
+    .foto {
+        position: absolute;
+        width: 90px;
+        height: 80px;
+        margin-bottom: 250px;
+        margin-left: 65%;
+        margin-right: 0%;
         margin-top: 160px;
         
     }
@@ -735,6 +772,7 @@ html{
 }
 @media (min-width: 320px) and (max-width: 1000px) {
     .header{
+        
         
         
         height: 80px;
@@ -789,3 +827,118 @@ html{
         height: 100%;
     }
 }
+
+
+
+
+
+@media (min-width: 736px) and (max-width: 1620px) {
+    .gridContainer {
+        display: grid;
+        grid-template-columns: 400px 450px 400px;
+        column-gap: 5px;
+        justify-content: center;
+        margin-top: 20px;
+        
+    }
+}
+@media (min-width: 737px) and (max-width: 1620px) {
+    .gridItem {
+        font-size: 19px;
+    }
+}
+@media (min-width: 737px) and (max-width: 1620px) {
+    .imgg {
+        height: 300px;
+        width: 460px;
+    }
+}
+@media (min-width: 737px) and (max-width: 1620px) {
+    .edu {
+        height: 300px;
+        width: 460px;
+    }
+}
+@media (min-width: 737px) and (max-width: 1620px) {
+    .cardTodo {
+        position: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        list-style-type: none;
+        display: inline-block;
+        margin-block-end: 30px;
+        width: 1400px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 10px;
+
+
+        
+    }
+}
+@media (min-width: 1010px) and (max-width: 1620px) {
+    .card {
+        margin-left: 0px;
+        margin-right: 0px;
+        
+        
+    }
+}
+@media (min-width: 1010px) and (max-width: 1620px) {
+    .cardd {
+        width: 0px;
+        margin: px;
+
+        
+        
+    }
+}
+@media (min-width: 1010px) and (max-width: 1620px) {
+    .as {
+        margin-left: 100px;
+        margin-right: 100px;
+        
+
+    }
+    .ass{
+        margin-left: 20px;
+        
+    }
+    .img{
+        height: 700px;
+        width: 960px;
+    }
+    .edu{
+        height: 700px;
+        width: 960px;
+    }
+    .imgg{
+        width: 960px;
+        height: 700px;
+    }
+    .dropdown-menu{
+        width: 250px;
+    }
+    .navbar{
+        margin-right: 60px;
+    }
+}
+.gridItems{
+    margin-top: 30px;
+}
+.gridItemd{
+    margin-top: 30px;
+    
+}
+@media (min-width: 1440px) and (max-width: 1620px) {
+    #header__logo {
+        height: 100px;
+        width: 150px;
+    }
+}
+
+
+
+
+
+
