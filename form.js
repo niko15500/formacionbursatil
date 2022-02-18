@@ -1,5 +1,5 @@
 
-$(function()
+$(function ()
 {
     function after_form_submitted(data) 
     {
@@ -114,3 +114,4 @@ document.addEventListener("DOMContentLoaded", function() {
 			menuTab(e);
 	});
 });
+
